@@ -6,8 +6,10 @@ if nombre_etage > 25
 else
   puts "tu as choisi #{nombre_etage} étages alors on  y va :"
   i = 1
+  j = nombre_etage - 1
   nombre_etage.times do
-    puts "#" * i
+    puts " "*j + "#"*i
     i = i + 1
+    j = j - 1
   end
 end
