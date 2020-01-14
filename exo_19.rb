@@ -6,7 +6,7 @@ mon_tableau=[]
   else
     mon_tableau.push("jean.dupont.#{i+1}@email.fr")
   end
-  if i % 2 == 0
+  if i % 2 != 0
     puts mon_tableau[i]
   end
 end
